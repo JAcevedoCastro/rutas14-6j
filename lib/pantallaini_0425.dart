@@ -20,13 +20,13 @@ class PantallaIni_0425 extends StatelessWidget {
               onPressed: () {
                 Navigator.pushNamed(context, '/Pantalla1_0425');
               },
-              child: Text("Mover a Pantalla 1"),
+              child: Text("Ejemplo Card"),
             ),
             ElevatedButton(
               onPressed: () {
                 Navigator.pushNamed(context, '/Pantalla2_0425');
               },
-              child: Text("Mover a Pantalla 2"),
+              child: Text("Ejemplo Card 2"),
             )
           ], // fin de nino
         ),
